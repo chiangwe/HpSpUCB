@@ -1,4 +1,4 @@
-![Optional Text](./Figure/Simulate.jpg =250x250)
+![Optional Text](./Figure/Simulate.jpg&s=200)
 
 # Hawkes process multi-armed bandits for disaster search and rescueHpSpUCB 
 ## Submission of ECML-PKDD 2020
