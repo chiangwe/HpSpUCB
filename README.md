@@ -1,4 +1,4 @@
-<img src = "./Figure/FrameWork.jpg" width=400>
+<img src = "./Figure/FrameWork.jpg" width=700>
 
 
 # Hawkes process multi-armed bandits for disaster search and rescueHpSpUCB 
