@@ -2,7 +2,8 @@
 ## Submission of ECML-PKDD 2020
 
 # Overall Framework on Hawkess processes component
-![Optional Text](./Figure/FrameWork.jpg|width=100px)
+<img src="./Figure/FrameWork.jpg" width="900px">
+
 
 # Dataset
 ## Spatio-temporal Simulated Dataset D_syn
@@ -11,7 +12,7 @@ Path: ./Dataset/D_hry/D_syn
 The simulation generator is list in the next section. 
 There are 4 fields, which are latitude, longitude, timestamp, and Grid Index (Arm).
 This directories include all the simulated datasets, that is presented in the manuscript.
-<img src="./Figure/Simulation_Parameters.png" width="600px">
+<img src="./Figure/Simulation_Parameters.png" width="900px">
 
 The following picture presents one of the example.
 ![Optional Text](./Figure/Simulate.jpg) 
