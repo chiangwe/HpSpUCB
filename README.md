@@ -1,4 +1,5 @@
-![Optional Text](./Figure/Simulate.jpg)
+<img src = "./Figure/FrameWork.jpg" width=700>
+
 
 # Hawkes process multi-armed bandits for disaster search and rescueHpSpUCB 
 ## Submission of ECML-PKDD 2020
