@@ -15,7 +15,7 @@ This directories include all the simulated datasets, that is presented in the ma
 <img src="./Figure/Simulation_Parameters.png" width="800px">
 
 The following picture presents one of the example.
-![Optional Text](./Figure/Simulate.jpg) 
+<img src="./Figure/Simulate.jpg" width="400px">
 
 ## 311 Service Call for flooding D_hry
 ### Raw dataset
