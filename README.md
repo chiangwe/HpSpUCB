@@ -2,7 +2,7 @@
 ## Submission of ECML-PKDD 2020
 
 # Overall Framework on Hawkess processes component
-![Optional Text](./Figure/FrameWork.jpg&s=20)
+![Optional Text](./Figure/FrameWork.jpg|width=100px)
 
 # Dataset
 ## Spatio-temporal Simulated Dataset D_syn
