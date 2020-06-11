@@ -1,5 +1,5 @@
 # Hawkes process multi-armed bandits for disaster search and rescue: HpSpUCB 
-## Submission of ECML-PKDD 2020
+## Submission of JASA
 
 # Overall Framework on Hawkess processes component
 <img src="./Figure/FrameWork.jpg" width="800px">
