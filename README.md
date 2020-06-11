@@ -40,19 +40,19 @@ The following picture presents one of the example.
 1. pois.m contains the function that draw samples from Possion Distribution
 2. Hawkes_Simulation.m contains the function that run the simulation given the parameter.
 
-Usage: function [times x y  offspring cluster_Id]=Hawkes_Simulation( η, φ, ω, T, σ)
-Input:
-T is the total simulation time.
-η is the rate per second and T is the total time span.
-φ governs the average number of offspring that an event spawns.
-ω controls the waiting time between parent and offspring.
-σ controls the spatial distance between parent and offspring event
-Output:
-times: Timestamps
-x: Simulated longitude.
-y: Simulated latitude.
-offspring: A index to show whether it is offsprings or parents.
-cluster_Id: It is the index to indicate which cluster it belongs to.
+### Usage: function [times x y  offspring cluster_Id]=Hawkes_Simulation( η, φ, ω, T, σ)
+#### Input:
+- T is the total simulation time.
+- η is the rate per second and T is the total time span.
+- φ governs the average number of offspring that an event spawns.
+- ω controls the waiting time between parent and offspring.
+- σ controls the spatial distance between parent and offspring event
+#### Output:
+- times: Timestamps
+- x: Simulated longitude.
+- y: Simulated latitude.
+- offspring: A index to show whether it is offsprings or parents.
+- cluster_Id: It is the index to indicate which cluster it belongs to.
 
 
 # Spatio-temporal Hawkes Processes Algorithm
@@ -60,23 +60,20 @@ cluster_Id: It is the index to indicate which cluster it belongs to.
 2. DataInput.py: This is the code to read in the input data file.
 3. MAB.py: Main code to run multi-armed bandit algorithm.
 4. HpSpUCB.py: The function that excecute the proposed model, HpSpUCB.
-Usage: ./python3 -W ignore MAB.py UnbDataPath=data_path ResultsPath=path_results Method=HpSpUCB NumArm=100 NumPulledArm=5 PeriodPerPull=7200 Gamma=0.1 Lambda=0.1 Delta=0.2 Tau=0.1 AlphaR=0.1 AlphaH=0.1 nsample=50 SimTime=1
-Input:
-UnbDataPath: Specify the input data path with four fields, Time, latitude, longitude, and grid index.
-ResultsPath: This is to keep track of every pull results.
-Method: To specify the method. 
-NumArm: The number of arms in total.
-NumPulledArm: The number of arms that we pull each visit.
-PeriodPerPull: The period between each pull.
-# Hyper Parameter
-Gamma: The weight betwee the proposed Hawkes processes component and the exsisted component.
-Lambda: The standward deviation used in Gaussian process and Gaussian filter.
-Delta: The standward deviation used in the Metropolis-Hastings sampling method.
-Tau: The temporature for softmax function.
-AlphaR: The weight on the upper confidence bound on rewards.
-AlphaH: The weight on the uppper conficence bound on event intensities.
-nsample: The number of samples to draw from posterior distribution. 
-SimTime: Simulation time for diffrent initial positions.
-
-
-Num 
+### Usage: ./python3 -W ignore MAB.py UnbDataPath=data_path ResultsPath=path_results Method=HpSpUCB NumArm=100 NumPulledArm=5 PeriodPerPull=7200 Gamma=0.1 Lambda=0.1 Delta=0.2 Tau=0.1 AlphaR=0.1 AlphaH=0.1 nsample=50 SimTime=1
+#### Input:
+- UnbDataPath: Specify the input data path with four fields, Time, latitude, longitude, and grid index.
+- ResultsPath: This is to keep track of every pull results.
+- Method: To specify the method. 
+- NumArm: The number of arms in total.
+- NumPulledArm: The number of arms that we pull each visit.
+- PeriodPerPull: The period between each pull.
+#### Hyper Parameter
+- Gamma: The weight betwee the proposed Hawkes processes component and the exsisted component.
+- Lambda: The standward deviation used in Gaussian process and Gaussian filter.
+- Delta: The standward deviation used in the Metropolis-Hastings sampling method.
+- Tau: The temporature for softmax function.
+- AlphaR: The weight on the upper confidence bound on rewards.
+- AlphaH: The weight on the uppper conficence bound on event intensities.
+- nsample: The number of samples to draw from posterior distribution. 
+- SimTime: Simulation time for diffrent initial positions.
