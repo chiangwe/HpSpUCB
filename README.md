@@ -8,10 +8,10 @@
 # Dataset
 ## Spatio-temporal Simulated Dataset D_syn
 
-Path: ./Dataset/D_hry/D_syn
-The simulation generator is list in the next section. 
-There are 4 fields, which are latitude, longitude, timestamp, and Grid Index (Arm).
-This directories include all the simulated datasets, that is presented in the manuscript.
+### Path: ./Dataset/D_hry/D_syn
+- The simulation generator is list in the next section. 
+- There are 4 fields, which are latitude, longitude, timestamp, and Grid Index (Arm).
+- This directories include all the simulated datasets, that is presented in the manuscript.
 <img src="./Figure/Simulation_Parameters.png" width="800px">
 
 The following picture presents one of the example.
